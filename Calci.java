@@ -14,7 +14,7 @@ class CalciDriver{
         System.out.println("Enter Two Numbers: ");
         int a=sc.nextInt();
         int b=sc.nextInt();
-        System.out.println(a+" + "+b+" + "+new CalciImpl().add(a, b));
+        System.out.println(a+" + "+b+" = "+new CalciImpl().add(a, b));
         sc.close();
     }
 }
